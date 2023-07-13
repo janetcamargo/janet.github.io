@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+@font-face{
+	font-family:"Bubbler";
+	src:url("../font/BubblerOne-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Chilanka";
+	src:url("../font/Chilanka-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Redes";
+	src:url("../font/Grunge-Social-Media.ttf");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+    font-size: 0px; 
+}
+
+.uno {
+	background-color: rgb(37, 45, 161);
+	height: 100vh;
+}
+
+#parte1, #parte2 {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	background-color: black;
+	text-align: center;
+}
+
+#parte1 {
+	padding: 0 40px;
+	color: white;
+    height: 100vh;
+}
+
+#parte2 {
+	height: 100vh;
+	overflow-x: hidden;
+}
+.parte:hover{
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+
+
+#video {
+	height: 100%;
+}
+
+h4 {
+	margin-top: 85px;
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+}
+
+h1, h3{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	font-size: 7rem;
+	color: white;
+}
+h1:hover{
+    color: rgb(189, 135, 19);
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+h3:hover{
+    color: rgb(30, 127, 211);
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+h4:hover{
+    color: rgb(17, 128, 85);
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+
+.apartado {
+	text-align: center;
+	padding: 100px;
+}
+
+.dos  {
+	background: url(../img/imagen1.jpg) ;
+    
+    width: 70%;
+	background-size: cover;
+	height: 100vh;
+    align-items: row;
+}
+.dos:hover{
+    filter: opacity(.5);
+}
+
+
+.tres  {
+
+	background-size: cover;
+    height: 100vh;
+	overflow-x: hidden;
+    align-items: center;
+}
+
+.cuatro {
+    
+	background: url(../img/imagen2.jpg) no-repeat fixed;
+	height: 100vh;
+	background-size: cover;
+}
+.cuatro:hover{
+    filter: blur(5px);
+}
+
+.apartadito{
+    background: url(../img/imagen4.jpg) no-repeat fixed;
+	height: 100vh;
+	background-size: cover;
+}
+.apartadito:hover{
+    filter: blur(5px);
+}
